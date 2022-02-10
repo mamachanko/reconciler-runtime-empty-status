@@ -6,7 +6,7 @@ package controllers
 
 import (
 	"context"
-	"github.com/mamachanko/reconciler-runtime-missing-status/api/v1alpha1"
+	"github.com/mamachanko/reconciler-runtime-empty-status/api/v1alpha1"
 	"github.com/vmware-labs/reconciler-runtime/reconcilers"
 )
 

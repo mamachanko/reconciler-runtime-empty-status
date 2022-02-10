@@ -1,4 +1,4 @@
-module github.com/mamachanko/reconciler-runtime-missing-status
+module github.com/mamachanko/reconciler-runtime-empty-status
 
 go 1.16
 

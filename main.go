@@ -21,8 +21,8 @@ import (
 	"sigs.k8s.io/controller-runtime/pkg/healthz"
 	"sigs.k8s.io/controller-runtime/pkg/log/zap"
 
-	mamachankocomv1alpha1 "github.com/mamachanko/reconciler-runtime-missing-status/api/v1alpha1"
-	"github.com/mamachanko/reconciler-runtime-missing-status/controllers"
+	mamachankocomv1alpha1 "github.com/mamachanko/reconciler-runtime-empty-status/api/v1alpha1"
+	"github.com/mamachanko/reconciler-runtime-empty-status/controllers"
 	//+kubebuilder:scaffold:imports
 )
 

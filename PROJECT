@@ -1,8 +1,8 @@
 domain: mamachanko.com
 layout:
 - go.kubebuilder.io/v3
-projectName: missing-status
-repo: github.com/mamachanko/reconciler-runtime-missing-status
+projectName: empty-status
+repo: github.com/mamachanko/reconciler-runtime-empty-status
 resources:
 - api:
     crdVersion: v1
@@ -10,6 +10,6 @@ resources:
   controller: true
   domain: mamachanko.com
   kind: Thing
-  path: github.com/mamachanko/reconciler-runtime-missing-status/api/v1alpha1
+  path: github.com/mamachanko/reconciler-runtime-empty-status/api/v1alpha1
   version: v1alpha1
 version: "3"
