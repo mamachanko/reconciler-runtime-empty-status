@@ -5,6 +5,7 @@ Copyright 2022.
 package v1alpha1
 
 import (
+	"github.com/vmware-labs/reconciler-runtime/apis"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 
@@ -24,6 +25,8 @@ type ThingSpec struct {
 type ThingStatus struct {
 	// INSERT ADDITIONAL STATUS FIELD - define observed state of cluster
 	// Important: Run "make" to regenerate code after modifying this file
+
+	apis.Status `json:",inline"`
 }
 
 //+kubebuilder:object:root=true
